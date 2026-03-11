@@ -1,0 +1,29 @@
+body {
+  background: var(--bg);
+  padding: 12px;
+}
+
+.desk-header {
+  width: min(100%, 560px);
+  margin: 0 auto;
+  padding: 18px 20px;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfcff 100%);
+  border: 1px solid var(--border-soft);
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(20, 21, 26, 0.06);
+}
+
+.desk-header__title {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: clamp(1.1rem, 2.6vw, 1.35rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.desk-header__subtitle {
+  margin: 4px 0 0;
+  color: var(--text-secondary);
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  font-weight: 450;
+}

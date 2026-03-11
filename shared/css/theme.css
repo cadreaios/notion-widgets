@@ -1,0 +1,8 @@
+/* Shared light theme tokens */
+:root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --text-primary: #14151a;
+  --text-secondary: #5f6471;
+  --border-soft: #e8eaf0;
+}
