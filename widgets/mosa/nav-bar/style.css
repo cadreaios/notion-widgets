@@ -7,8 +7,6 @@ body {
 }
 
 .mosa-nav {
-  display: flex;
-  justify-content: center;
   max-width: 1000px;
   margin: 0 auto;
   background: #ffffff;
