@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 8px;
+  background: transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.mosa-nav {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 8px 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.mosa-nav__track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.1) transparent;
+}
+
+.mosa-nav__track::-webkit-scrollbar {
+  height: 6px;
+}
+
+.mosa-nav__track::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.mosa-nav__track::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: #4b5563;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.15s ease;
+  user-select: none;
+  flex: 0 0 auto;
+}
+
+.nav-link:hover {
+  background: #f3f4f6;
+  color: #3b82f6;
+}
+
+.nav-link:focus-visible {
+  outline: 2px solid #93c5fd;
+  outline-offset: 2px;
+}
+
+.nav-link.active {
+  color: #3b82f6;
+  background: #eff6ff;
+  box-shadow: inset 0 -2px 0 #60a5fa;
+}
