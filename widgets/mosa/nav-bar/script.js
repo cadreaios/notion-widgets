@@ -1,3 +1,3 @@
-window.NotionWidgetUtils?.ready(() => {
-  console.log("Widget scaffold loaded.");
-});
+// future enhancement:
+// detect active studio
+// highlight current nav link
