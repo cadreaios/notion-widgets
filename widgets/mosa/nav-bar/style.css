@@ -22,6 +22,8 @@ body {
   width: min(100%, 1000px);
   margin: 0 auto;
   background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 16px;
   border: 1px solid var(--border-soft);
   border-radius: 18px;
   padding: 20px 14px;
