@@ -13,7 +13,7 @@ body {
 }
 
 .studio-panel {
-  width: min(100%, 372px);
+  width: min(100%, 388px);
   padding: 20px 24px 20px 26px;
   border-radius: 18px;
   border: 1px solid #e9ecf2;
@@ -41,8 +41,8 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  min-height: 44px;
-  padding: 9px 11px;
+  min-height: 48px;
+  padding: 12px 14px;
   border-radius: 12px;
   border: 1px solid #eaedf3;
   background: #fcfcfd;
@@ -81,7 +81,7 @@ body {
   }
 
   .studio-panel {
-    width: min(100%, 356px);
+    width: min(100%, 370px);
     padding: 16px 20px 16px 21px;
     border-radius: 16px;
   }
@@ -96,8 +96,8 @@ body {
   }
 
   .studio-action {
-    min-height: 42px;
-    padding: 9px 10px;
+    min-height: 45px;
+    padding: 11px 12px;
     font-size: 14px;
     font-weight: 650;
   }
