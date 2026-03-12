@@ -42,7 +42,9 @@
     const url = params.get(`${tab}Url`) || defaults.urls[tab];
 
     const span = link.querySelector("span");
-    if (span) span.textContent = label;
+    if (span) {
+      span.textContent = label;
+    }
 
     link.setAttribute("aria-label", label);
     link.setAttribute("href", url);
