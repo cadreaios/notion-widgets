@@ -1,0 +1,52 @@
+:root {
+  --accent-color: #3b82f6;
+}
+
+body {
+  margin: 0;
+  min-height: 82px;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.mobile-desk-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  width: fit-content;
+  min-height: 48px;
+  padding: 11px 24px;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  background: #f8fafc;
+  color: #4b5563;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  user-select: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.mobile-desk-button svg {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
+}
+
+.mobile-desk-button:hover {
+  background: color-mix(in srgb, var(--accent-color) 10%, white);
+  border-color: color-mix(in srgb, var(--accent-color) 28%, #e5e7eb);
+  color: var(--accent-color);
+}
+
+.mobile-desk-button:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent-color) 38%, white);
+  outline-offset: 2px;
+}
