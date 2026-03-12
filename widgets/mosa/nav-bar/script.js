@@ -1,22 +1,24 @@
 /*
  * Supported URL params:
  * accent, active,
- * marketingLabel/creativeLabel/socialLabel/brandLabel,
- * marketingUrl/creativeUrl/socialUrl/brandUrl
+ * workdeskLabel/marketingLabel/creativeLabel/socialLabel/brandLabel,
+ * workdeskUrl/marketingUrl/creativeUrl/socialUrl/brandUrl
  */
 (function () {
   const params = new URLSearchParams(window.location.search);
 
   const defaults = {
     accent: "#3B82F6",
-    active: "marketing",
+    active: "workdesk",
     labels: {
+      workdesk: "Work Desk",
       marketing: "Marketing Studio",
       creative: "Creative Studio",
       social: "Social Studio",
       brand: "Brand Studio"
     },
     urls: {
+      workdesk: "#",
       marketing: "#",
       creative: "#",
       social: "#",
@@ -24,7 +26,7 @@
     }
   };
 
-  const tabs = ["marketing", "creative", "social", "brand"];
+  const tabs = ["workdesk", "marketing", "creative", "social", "brand"];
   const links = document.querySelectorAll(".nav-link[data-tab]");
 
   const accentInput = params.get("accent") || defaults.accent;
