@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  padding: 18px 8px 8px;
+  padding: 14px 8px 6px;
   display: flex;
   justify-content: center;
   background: transparent;
@@ -13,8 +13,8 @@ body {
 }
 
 .studio-panel {
-  width: min(100%, 388px);
-  padding: 20px 24px 20px 26px;
+  width: min(100%, 352px);
+  padding: 16px 18px 16px 19px;
   border-radius: 18px;
   border: 1px solid #e9ecf2;
   background: #ffffff;
@@ -22,7 +22,7 @@ body {
 }
 
 .studio-panel__title {
-  margin: 0 0 16px;
+  margin: 0 0 12px;
   color: #111827;
   font-size: 1rem;
   font-weight: 620;
@@ -33,16 +33,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  gap: 12px;
-  padding: 0 10px 0 8px;
+  gap: 9px;
+  padding: 0 5px 0 4px;
 }
 
 .studio-action {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  min-height: 48px;
-  padding: 12px 14px;
+  gap: 8px;
+  min-height: 40px;
+  padding: 8px 10px;
   border-radius: 12px;
   border: 1px solid #eaedf3;
   background: #fcfcfd;
@@ -77,27 +77,27 @@ body {
 
 @media (max-width: 480px) {
   body {
-    padding-top: 14px;
+    padding-top: 11px;
   }
 
   .studio-panel {
-    width: min(100%, 370px);
-    padding: 16px 20px 16px 21px;
+    width: min(100%, 340px);
+    padding: 14px 16px 14px 17px;
     border-radius: 16px;
   }
 
   .studio-panel__title {
-    margin-bottom: 14px;
+    margin-bottom: 12px;
   }
 
   .studio-panel__actions {
-    gap: 10px;
-    padding: 0 7px 0 6px;
+    gap: 8px;
+    padding: 0 4px 0 3px;
   }
 
   .studio-action {
-    min-height: 45px;
-    padding: 11px 12px;
+    min-height: 38px;
+    padding: 7px 9px;
     font-size: 14px;
     font-weight: 650;
   }
